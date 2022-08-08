@@ -1,2 +1,2 @@
-cp /workspace/Env/gitconfig ~/.gitconfig
+cp /workspace/env/gitconfig ~/.gitconfig
 cat ~/.gitconfig
