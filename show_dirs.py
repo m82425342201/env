@@ -5,6 +5,7 @@ roots = [
     'stock',
     'Factory',
     'rpm-workspace',
+    'poscrgen_ws',
     '1',
 ]
 
