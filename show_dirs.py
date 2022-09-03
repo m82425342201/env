@@ -6,6 +6,7 @@ roots = [
     'Factory',
     'rpm-workspace',
     'poscrgen_ws',
+    'd827088818559',
     '1',
 ]
 
