@@ -8,3 +8,10 @@ sudo mv ./ghcup /usr/local/bin
 ghcup install stack
 sudo ln -s /home/gitpod/.ghcup/bin/stack /usr/local/bin/stack
 #stack install ghcid
+mkdir -p /workspace/ghcup/.cabal
+mkdir -p /workspace/ghcup/.ghcup
+mkdir -p /workspace/ghcup/.stack
+rm -f $HOME/.cabal
+rm -f $HOME/.ghcup
+rm -f $HOME/.stack
+ln -s /workspace/ghcup/* $HOME
