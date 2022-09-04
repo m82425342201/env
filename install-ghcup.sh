@@ -4,7 +4,7 @@ chmod 755 ./ghcup
 sudo mv ./ghcup /usr/local/bin
 #ghcup install ghc
 #ghcup install cabal
-ghcup install hls
+#ghcup install hls
 ghcup install stack
 sudo ln -s /home/gitpod/.ghcup/bin/stack /usr/local/bin/stack
-stack install ghcid
+#stack install ghcid
