@@ -11,7 +11,7 @@ sudo ln -s /home/gitpod/.ghcup/bin/stack /usr/local/bin/stack
 mkdir -p /workspace/ghcup/.cabal
 mkdir -p /workspace/ghcup/.ghcup
 mkdir -p /workspace/ghcup/.stack
-rm -f $HOME/.cabal
-rm -f $HOME/.ghcup
-rm -f $HOME/.stack
+rm -rf $HOME/.cabal
+rm -rf $HOME/.ghcup
+rm -rf $HOME/.stack
 ln -s /workspace/ghcup/* $HOME
