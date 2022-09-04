@@ -6,6 +6,7 @@ sudo mv ./ghcup /usr/local/bin
 #ghcup install cabal
 #ghcup install hls
 ghcup install stack
+sudo rm -f /usr/local/bin/stack
 sudo ln -s /home/gitpod/.ghcup/bin/stack /usr/local/bin/stack
 #stack install ghcid
 mkdir -p /workspace/ghcup/.cabal
