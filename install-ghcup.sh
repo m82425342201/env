@@ -15,4 +15,6 @@ mkdir -p /workspace/ghcup/.stack
 rm -rf $HOME/.cabal
 rm -rf $HOME/.ghcup
 rm -rf $HOME/.stack
-ln -s /workspace/ghcup/* $HOME
+ln -s /workspace/ghcup/.cabal $HOME
+ln -s /workspace/ghcup/.ghcup $HOME
+ln -s /workspace/ghcup/.stack $HOME
