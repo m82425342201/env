@@ -14,7 +14,15 @@ sudo mv ./ghcup /usr/local/bin
 #ghcup install ghc
 #ghcup install cabal
 #ghcup install hls
-ghcup install stack
-sudo rm -f /usr/local/bin/stack
-sudo ln -s /home/gitpod/.ghcup/bin/stack /usr/local/bin/stack
 #stack install ghcid
+ghcup install ghc 9.4.2
+ghcup install cabal 3.8.1.0
+ghcup install stack
+ghcup set ghc 9.4.2
+ghcup set cabal 3.8.1.0
+sudo rm -f /usr/local/bin/stack
+sudo rm -f /usr/local/bin/cabal
+sudo rm -f /usr/local/bin/ghc
+sudo ln -s /home/gitpod/.ghcup/bin/stack /usr/local/bin/stack
+sudo ln -s /home/gitpod/.ghcup/bin/cabal /usr/local/bin/cabal
+sudo ln -s /home/gitpod/.ghcup/bin/ghc /usr/local/bin/ghc
