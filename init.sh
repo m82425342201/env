@@ -8,3 +8,5 @@ sudo /etc/init.d/ssh start
 sudo cp /workspace/env/ngrok /usr/local/bin
 sudo chmod 755 /usr/local/bin/ngrok
 sudo locale-gen ko_KR.UTF-8
+echo 'cp -r /workspace/env/.vscode .' > /workspace/x
+chmod +x /workspace/x
